@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import profileImg from "@/assets/profile.png";
 
 const HeroSection = () => {
   return (
@@ -57,6 +58,9 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
+          <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden mx-auto mb-8 border-2 border-accent/30 shadow-[0_0_30px_hsl(var(--glow)/0.2)] bg-background">
+            <img src={profileImg} alt="Mreenmay Kumar Sahu" className="w-full h-full object-cover" />
+          </div>
           <p className="text-accent font-mono text-sm tracking-[0.3em] uppercase mb-6">
             Portfolio
           </p>

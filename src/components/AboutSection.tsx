@@ -34,7 +34,7 @@ const AboutSection = () => {
                   Bachelor of Technology — Aerospace Engineering
                 </h3>
                 <p className="text-accent text-sm mt-1">Lovely Professional University</p>
-                <p className="text-muted-foreground text-sm mt-1">2023 — 2027 &nbsp;·&nbsp; CGPA: 6.79</p>
+                <p className="text-muted-foreground text-sm mt-1">2023 — 2027 &nbsp;·&nbsp; CGPA: 7.18</p>
               </div>
             </div>
           </motion.div>
